@@ -1,12 +1,5 @@
 # Text Auto-correction Module
 
-## Table of Contents
-- [Introduction](#introduction)
-- [Final Product](#final-product)
-- [Features](#features)
-- [Technologies Used](#technologies-used)
-- [Acknowledgements](#acknowledgements)
-
 ## Introduction
 
 The Text Analytics and Autocorrection Module is a Python-based program aimed at measuring typing speed and implementing a typing autocorrect feature. The module performs text classification tasks, keyword matching, and provides real-time analytics for typing speed and accuracy.
