@@ -28,24 +28,24 @@ The Text Analytics and Autocorrection Module is a Python-based program aimed at 
 - Edit Distance Algorithms
 - Memoization
 
-## Implementation of Elevator Simulation Project
+## Implementation Details
 
-This Python project simulates the operations of elevators within a multi-story building.
+### Text Classification & Keyword Matching
+- Utilizes `choose` and `about` functions to select paragraphs that match a set of keywords. 
 
-### Core Features
-- Various elevator classes (`BasicElevator`, `ExpressElevator`, `FreightElevator`) are tailored for specific operations and capacities.
-- Uses a `PriorityQueue` for efficient scheduling of elevator stops based on location, destination, and priority level of elevator calls.
+### Typing Speed and Accuracy Analytics
+- Features an `accuracy` function that calculates the percentage of words typed correctly when compared to a reference string.
+- Includes a `wpm` function for calculating words-per-minute based on the typed string and elapsed time.
 
-### Special Modes
-- **Fire Drill**: Elevators go to the ground floor during a fire drill.
-- **Maintenance Mode**: Elevators go to their home floors and become unresponsive to calls during maintenance.
+### Autocorrection Mechanism
+- Employs an `autocorrect` function that finds the most similar word from a set of valid words based on a provided difference function and a limit.
 
-### Advanced Mechanisms
-- **Emergency Override**: Sends the nearest elevator immediately to the emergency floor when activated.
-  
-### Extensibility and Testing
-- Interfaces for potential future features like `VIPMode` or `EnergySavingMode`.
-- Edge cases such as simultaneous calls from multiple floors, elevators reaching maximum capacity, and unexpected system failures are handled.
+### Utilitarian Functions
+- Leverages utility functions from an external `utils` module for string manipulations such as converting to lowercase and removing punctuation.
+
+### Additional Highlights
+- **Flexibility**: The architecture is designed to allow easy integration of additional features or different difference functions.
+- **Efficiency**: Makes efficient use of Python's list comprehensions and `min()` function for optimized operations.
 
 ## Acknowledgements
 
