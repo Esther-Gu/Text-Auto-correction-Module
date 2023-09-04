@@ -8,6 +8,12 @@ The Text Analytics and Autocorrection Module is a Python-based program aimed at 
 
 ![Text Analytics and Autocorrection Interface](images/Cats_proj.png)
 
+## Technologies Used
+- Python
+- Dynamic Programming
+- Edit Distance Algorithms
+- Memoization
+  
 ## Features
 
 ### Text Classification
@@ -21,12 +27,6 @@ The Text Analytics and Autocorrection Module is a Python-based program aimed at 
 ### Typing Metrics
 - Real-time calculation of Words Per Minute (WPM) and accuracy.
 - Multiplayer progress tracking and competitive typing metrics.
-
-## Technologies Used
-- Python
-- Dynamic Programming
-- Edit Distance Algorithms
-- Memoization
 
 ## Implementation Details
 
