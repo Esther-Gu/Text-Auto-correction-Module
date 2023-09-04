@@ -31,21 +31,22 @@ The Text Analytics and Autocorrection Module is a Python-based program aimed at 
 ## Implementation Details
 
 ### Text Classification & Keyword Matching
-- Utilizes `choose` and `about` functions to select paragraphs that match a set of keywords. 
+- The `choose` and `about` functions help in selecting paragraphs that match a given set of keywords.
 
 ### Typing Speed and Accuracy Analytics
-- Features an `accuracy` function that calculates the percentage of words typed correctly when compared to a reference string.
-- Includes a `wpm` function for calculating words-per-minute based on the typed string and elapsed time.
+- The `accuracy` function calculates the percentage of words typed correctly compared to a reference string.
+- The `wpm` function calculates words-per-minute based on the elapsed time and typed content.
 
 ### Autocorrection Mechanism
-- Employs an `autocorrect` function that finds the most similar word from a set of valid words based on a provided difference function and a limit.
+- The `autocorrect` function finds the closest matching word from a set of valid words based on a provided difference function and a limit.
 
 ### Utilitarian Functions
-- Leverages utility functions from an external `utils` module for string manipulations such as converting to lowercase and removing punctuation.
+- Functions from the `utils` module are used for string manipulation like converting to lowercase, removing punctuation, etc.
 
 ### Additional Highlights
-- **Flexibility**: The architecture is designed to allow easy integration of additional features or different difference functions.
-- **Efficiency**: Makes efficient use of Python's list comprehensions and `min()` function for optimized operations.
+- **Flexibility**: The architecture allows easy integration of additional features or different difference functions.
+- **Efficiency**: Utilizes Python's list comprehensions and `min()` function for efficient operations.
+
 
 ## Acknowledgements
 
