@@ -10,7 +10,7 @@ The project is a Python-based program aimed at measuring typing speed and implem
 
 ## My Contribution
 
-I've actively contributed to this project by implementing 10+ key features and optimizing existing functions for better performance, based on a coursework project where the code structure was provided as a skeleton. My work enhances the project's efficiency and extends its capabilities.
+I've actively contributed to this project by implementing 12+ key features and optimizing existing functions for better performance, based on a coursework project where the code structure was provided as a skeleton. My work enhances the project's efficiency and extends its capabilities.
 
 ## Features
 
