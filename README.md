@@ -4,7 +4,7 @@
 
 The project is a Python-based program aimed at measuring typing speed and implementing a typing autocorrect feature. The module performs text classification tasks, keyword matching, and provides real-time analytics for typing speed and accuracy.
 
-[See this program on YouTube](https://youtu.be/ENGe_OFuRbk)
+[Check out the completed program in action on YouTube](https://youtu.be/ENGe_OFuRbk)
 
 ![Text Analytics and Autocorrection Interface](images/Cats_proj.png)
 
