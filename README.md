@@ -2,18 +2,16 @@
 
 ## Introduction
 
-The Text Analytics and Autocorrection Module is a Python-based program aimed at measuring typing speed and implementing a typing autocorrect feature. The module performs text classification tasks, keyword matching, and provides real-time analytics for typing speed and accuracy.
+The project is a Python-based program aimed at measuring typing speed and implementing a typing autocorrect feature. The module performs text classification tasks, keyword matching, and provides real-time analytics for typing speed and accuracy.
 
-[Watch my implementation on YouTube](https://youtu.be/ENGe_OFuRbk)
+[See the program on YouTube](https://youtu.be/ENGe_OFuRbk)
 
 ![Text Analytics and Autocorrection Interface](images/Cats_proj.png)
 
-## Technologies Used
-- Python
-- Dynamic Programming
-- Edit Distance Algorithms
-- Memoization
-  
+## My Contribution
+
+I've actively contributed to this project by implementing 10+ key features and optimizing existing functions for better performance, based on a coursework project where the code structure was provided as a skeleton. My work enhances the project's efficiency and extends its capabilities.
+
 ## Features
 
 ### Text Classification
